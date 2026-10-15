@@ -1,12 +1,19 @@
 # 剖木 · 太和殿斗栱互动展
 
-Blender + Three.js interactive structural study of the Taihe Hall lower-eave intermediate bracket set.
+以太和殿下檐平身科单翘重昂七踩溜金斗栱为文献锚点的互动结构展示。
 
-结构展示精度，非测绘复原。支持旋转、缩放、构件识别、拆解复原和可选原创声音。
+支持旋转缩放、构件识别、隔离观察、连续拆解与复原、可选原创音乐和音效。声音初始关闭。
 
-- `palace-dougong-web.zip`: verified static website bundle.
-- `palace-dougong-source.zip`: editable Blender model, modeling scripts, web source, original audio, sources, licenses and validation records.
+## 发布方式
 
-Sound is off until explicitly enabled. Historical dimensions, hidden joinery and current polychromy are simplified and documented in the exhibit.
+本仓库以 deployment/site.part000 等二进制分块保存已经过本机验证的静态站归档。GitHub Actions 会顺序重组、校验 SHA-256 并解包至 Pages，保留模型、字体与声音的目录关系。
 
-Public deployment is being prepared; the verified URL will be recorded after validation.
+归档 SHA-256：`1868cfb9cfcf956fad4b0c77661e2a418b73e2dc56a671e3c877e9c270cc70bc`。
+
+## 依据与边界
+
+结构展示精度，非测绘复原；尺寸、隐藏榫卯、现状彩画和拆解路径有展示性简化。配乐为原创数学合成，非宫廷古乐或实录古琴。来源和使用许可在站内说明与分发许可文件中列明。
+
+可编辑 Blender 模型、建模脚本、网页源代码、无损音频和验证记录已另行交付；此仓库先承担公网静态站发布。
+
+正式地址将在公网验收后补充。
