@@ -18,7 +18,7 @@ jobs:
       - name: Reassemble and verify the tested static bundle
         run: |
           cat deployment/site.part* > site.zip
-          echo "1868cfb9cfcf956fad4b0c77661e2a418b73e2dc56a671e3c877e9c270cc70bc  site.zip" | sha256sum --check
+          echo "2729280a3e004b9f6f1da282d028cd7eda37526553497c4cbdd9d549849c98bb  site.zip" | sha256sum --check
           unzip -q site.zip -d dist
           touch dist/.nojekyll
       - uses: actions/configure-pages@v5
