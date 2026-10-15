@@ -16,4 +16,11 @@
 
 可编辑 Blender 模型、建模脚本、网页源代码、无损音频和验证记录已另行交付；此仓库先承担公网静态站发布。
 
-正式地址将在公网验收后补充。
+## 在线体验
+
+[打开剖木互动展](https://marryhubert0-svg.github.io/palace-dougong/)
+
+2026-10-15 已实际打开公网地址并通过19项Edge浏览器交互检查，含四种桌面/移动视口、模型识别与拆解复原、声音启用和静音。真实手机和人工听检尚未验证。
+
+[成功的 Pages 发布记录](https://github.com/marryhubert0-svg/palace-dougong/actions/runs/38746383914)
+
