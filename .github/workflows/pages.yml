@@ -20,6 +20,9 @@ jobs:
           cat deployment/site.part* > site.zip
           echo "2729280a3e004b9f6f1da282d028cd7eda37526553497c4cbdd9d549849c98bb  site.zip" | sha256sum --check
           unzip -q site.zip -d dist
+          cat deployment/zoom.part* > zoom-patch.zip
+          echo "d85362a8208768da5bc5a50ab938e20ec0cbe5a94e708681e859ca0870fe7b0e  zoom-patch.zip" | sha256sum --check
+          unzip -oq zoom-patch.zip -d dist
           touch dist/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
